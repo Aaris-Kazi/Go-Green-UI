@@ -37,6 +37,12 @@ h4{
     .h1.meta{
         font-size: 24px;
     }
+    .h3{
+        font-size: 20px;
+    }
+    .col-4{
+        width: 100%;
+    }
 }
 
 @media (min-width: 768px) {
@@ -49,4 +55,8 @@ h4{
 }
 .row.text-center.content{
     margin-top: 2%;
+    justify-content: space-evenly;
+}
+.col.content{
+    max-width: 170px;
 }
