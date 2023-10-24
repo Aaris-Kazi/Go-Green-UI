@@ -1,0 +1,46 @@
+.d-inline-block.align-text-top{
+    max-height: 72px;
+}
+
+.navbar-brand{
+    margin-left: 15px;
+}
+h4{
+    margin-bottom: 200px;
+}
+.text_overlay{
+    position: absolute;
+    align-items: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+}
+.h6.after{
+    font-size: 30px;
+    max-width: 108px;
+    color: rgb(24, 105, 105);
+    
+}
+@media (max-width: 720px) {
+    .text_overlay span{
+        text-align: center;
+        display: flex;
+        margin-top: -140%;
+        transform: translate(0%, -90%);
+        color: white;
+    }
+    .h6.after{
+        font-size: 20px;
+        color: rgb(24, 105, 105);
+        padding: 3%;
+    }
+}
+
+@media (min-width: 768px) {
+    .text_overlay span{
+        text-align: center;
+        font-size: 36px;
+        display: flex;
+        color: white;
+    }
+}
