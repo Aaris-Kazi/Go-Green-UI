@@ -34,6 +34,9 @@ h4{
         color: rgb(24, 105, 105);
         padding: 3%;
     }
+    .h1.meta{
+        font-size: 24px;
+    }
 }
 
 @media (min-width: 768px) {
@@ -43,4 +46,7 @@ h4{
         display: flex;
         color: white;
     }
+}
+.row.text-center.content{
+    margin-top: 2%;
 }
