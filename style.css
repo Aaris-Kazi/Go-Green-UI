@@ -63,3 +63,6 @@ h4{
 .col.content{
     max-width: 170px;
 }
+.card{
+    padding: 0px;
+}
